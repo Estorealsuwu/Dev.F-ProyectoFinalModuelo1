@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Libros Encantados</title>
+    <link rel="icon" href="./images/Enchanted_Book.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CIELO -->
+    <header class="cielo">
+        <h1>Libros Encantados</h1>
+        <p>Escribe tu libro encantado favorito </p>
+
+        <form id="commentForm">
+            <input type="text" id="commentInput"  class="minecraft-input"  placeholder="Escribe tu comentario..." required>
+
+            <select id="animalSelect" class="minecraft-select">
+                <option value="oveja">Oveja</option>
+                <option value="cerdo">Cerdo</option>
+                <option value="gallina">Gallina</option>
+                <option value="vaca">Vaca</option>
+            </select>
+
+            <button class="minecraft-btn" type="submit">Comentar</button>
+        </form>
+    </header>
+
+    <div class="tierra">
+        <section class="comentarios-section">
+            <div id="commentsList"></div>
+        </section>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
